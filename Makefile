@@ -18,3 +18,6 @@ test:
 run:
 	flask run
 
+run-test:
+	python -m test.app-test
+

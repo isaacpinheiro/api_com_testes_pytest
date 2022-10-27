@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-'''from app import create_app
+from app import create_app
 from test.config.mysql import db_info
 import pymysql
 
@@ -34,5 +34,5 @@ def index():
 
 if __name__ == '__main__':
     preparing_db()
-    app.run()'''
+    app.run()
 

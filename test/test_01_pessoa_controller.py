@@ -34,10 +34,7 @@ obj5 = {
     'cpf': '123.456.789/10'
 }
 
-def test_01_simple():
-    assert True
-
-'''def test_01_insert():
+def test_01_insert():
 
     res = req.request('POST', URL, json=obj1)
     res = json.loads(res.text)
@@ -73,9 +70,9 @@ def test_04_update():
     res = req.request('GET', URL + '/1')
     res = json.loads(res.text)
 
-    assert res == self.obj5
+    assert res == obj5
 
-def test_05_delete(self):
+def test_05_delete():
 
     res = req.request('DELETE', URL + '/1')
     res = json.loads(res.text)
@@ -85,5 +82,5 @@ def test_05_delete(self):
     res = req.request('GET', URL)
     res = json.loads(res.text)
 
-    assert len(res) == 1'''
+    assert len(res) == 1
 
